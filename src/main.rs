@@ -2,7 +2,7 @@
 fn check(x:Vec<i32>,num:i32)->bool{
 	for i in x{
 		if i+num==100{
-			false
+			return false;
 		}
 	}
 	true
